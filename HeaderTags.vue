@@ -5,7 +5,8 @@
 
 export default {
   created() {
-    if (typeof this.$ssrContext !== "undefined") {
+    if (typeof this.$ssrContext !== "undefined" &&
+        this.$ssrContext.url === "/") {
       this.$ssrContext.userHeadTags = 
         this.$ssrContext.userHeadTags.concat(this.getHeaderTags())
     }
