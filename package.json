@@ -1,7 +1,8 @@
 {
   "name": "@aphorica/vuepress-plugin-netlifycms",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "add netlifycms headertag to main page",
+  "repository": "github:Aphorica/vuepress-plugin-netlifycms.git",
   "main": "index.js",
   "publishConfig": {
     "access": "public"
